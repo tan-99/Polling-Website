@@ -1,0 +1,22 @@
+POLLING APP:
+-> Still not clear with jwt tokens
+-> Still not clear when to use module.exports or only exports
+-> Not understanding 'populate' method
+
+REDUX
+Redux is a library for javscript applications
+It is a state container. Stores the state of your application.
+State of an app is the state represented by all the individual components of the app.
+Redux is predicatble - what does predictable mean?
+React-Redux is the official  Redux UI binding library for React	
+Three concepts:
+Store hold state of your application
+Action these describe the change to the state of your application. It tell the reducer what to do and how to manipulate the states.
+
+const exampleAction = {
+	
+	type: 'PERFORM_TASK',
+	payload: 'Learn Redux'
+}
+
+Reducer actually carries out the state transition depending on the action. It takes current state and action as argument and returns new state.
